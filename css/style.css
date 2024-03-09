@@ -3,19 +3,24 @@
 /*=======================================================
 	General Styles
 =======================================================*/
+/*=======================================================
+    General Styles
+=======================================================*/
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700,300,100|Lora:400,400italic,700,700italic);
 body, html{
-	height:100%;
-	width:100%;
+    height:100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
 }
 body{
-	position:relative;
-	overflow:hidden;
-	font-family: Lora, serif;
-	background:bisque !important;
+    position:relative;
+    overflow:hidden;
+    font-family: Lora, serif;
+    background:bisque !important;
 }
 *{
-	font-family: inherit;
+    font-family: inherit;
 }
 .view-project,
 .portfolio-filters > li > a,
@@ -24,7 +29,7 @@ body{
 .btn-custom,
 .menu-items > li > a,
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
 }
 .color{
 	color:#303F9F;
